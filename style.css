@@ -1,0 +1,74 @@
+body {
+  background-color: #333;
+  color: #efefef;
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  color: #db880d;
+}
+
+a:hover {
+  color: #1d1e22;
+}
+
+.clock-title {
+  color: #db880d;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  font-size: 28px;
+  border-radius: 4px;
+}
+
+div > button {
+  color: #efefef;
+  background-color: #db880d;
+}
+
+div button:nth-child(2) {
+  color: #efefef;
+  background-color: green;
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 0;
+  padding-top: 10px;
+  background-color: #1d1e22;
+}
+
+.timer-wrapper > button {
+  margin-left: 10px
+}
